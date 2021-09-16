@@ -21,7 +21,6 @@ body {
 
 #contentbox {
     background-color:dodgerblue;
-    /* height: 700px; */
     margin-bottom: 1%;
 }
 
@@ -36,28 +35,20 @@ body {
     height: 150px;
 }
 
-.content-left {
+.content {
     background-color: lightskyblue;
-    width: 20%;
     height: 500px;
     float: left;
+}
+
+#contentbox aside {
+    width: 20%;
     margin: 1% 0;
 }
 
-.content-center {
-    background-color: lightskyblue;
+.center {
     width: 56%;
-    height: 500px;
-    float: left;
     margin: 1% 2%;
-}
-
-.content-right {
-    background-color: lightskyblue;
-    width: 20%;
-    height: 500px;
-    float: right;
-    margin: 1% 0;
 }
 
 #credits {
