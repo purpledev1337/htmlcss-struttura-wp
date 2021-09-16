@@ -9,15 +9,15 @@ body {
 }
 
 #logobox {
-    background-color: palevioletred;
+    /* background-color: palevioletred; */
     height: 200px;
 }
 
-#slidebar {
+/* #slidebar {
     background-color: darkkhaki;
     height: 500px;
     margin: 2% 0;
-}
+} */
 
 #contentbox {
     background-color:dodgerblue;
@@ -80,4 +80,17 @@ nav {
 nav a {
     text-decoration: none;
     color: grey;
+}
+
+#slidebar {
+    height: 500px;
+    width: 100%;
+    background-image: url("../img/yogamain.jpg");
+    background-position: top;
+    background-size: contain;
+    color: white;
+}
+
+#slidebar h1 {
+    line-height: 500px;
 }
