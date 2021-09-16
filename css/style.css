@@ -21,23 +21,25 @@ body {
 
 #contentbox {
     background-color:dodgerblue;
-    height: 700px;
+    /* height: 700px; */
     margin-bottom: 1%;
 }
 
-.clearbox {
-    height: 100%;
+#contentbox::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .title {
     background-color: lightskyblue;
-    height: 15%;
+    height: 150px;
 }
 
-.content {
+.content-left {
     background-color: lightskyblue;
     width: 20%;
-    height: 80%;
+    height: 500px;
     float: left;
     margin: 1% 0;
 }
@@ -45,9 +47,17 @@ body {
 .content-center {
     background-color: lightskyblue;
     width: 56%;
-    height: 80%;
+    height: 500px;
     float: left;
     margin: 1% 2%;
+}
+
+.content-right {
+    background-color: lightskyblue;
+    width: 20%;
+    height: 500px;
+    float: right;
+    margin: 1% 0;
 }
 
 #credits {
