@@ -4,7 +4,26 @@
     box-sizing: border-box;
 }
 
+body {
+    padding: 1% 5%;
+}
+
 #logobox {
     background-color: palevioletred;
+    height: 100px;
+}
+
+#slidebar {
+    background-color: darkkhaki;
+    height: 500px;
+}
+
+#contentbox {
+    background-color:dodgerblue;
+    height: 600px;
+}
+
+#credits {
+    background-color: darkmagenta;
     height: 100px;
 }
