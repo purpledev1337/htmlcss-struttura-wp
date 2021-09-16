@@ -10,17 +10,19 @@ body {
 
 #logobox {
     background-color: palevioletred;
-    height: 100px;
+    height: 200px;
 }
 
 #slidebar {
     background-color: darkkhaki;
     height: 500px;
+    margin: 2% 0;
 }
 
 #contentbox {
     background-color:dodgerblue;
-    height: 600px;
+    height: 700px;
+    margin-bottom: 1%;
 }
 
 #credits {
