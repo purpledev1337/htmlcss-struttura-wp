@@ -5,7 +5,7 @@
 }
 
 body {
-    padding: 1% 5%;
+    padding: 1% 10%;
 }
 
 #logobox {
@@ -23,6 +23,31 @@ body {
     background-color:dodgerblue;
     height: 700px;
     margin-bottom: 1%;
+}
+
+.clearbox {
+    height: 100%;
+}
+
+.title {
+    background-color: lightskyblue;
+    height: 15%;
+}
+
+.content {
+    background-color: lightskyblue;
+    width: 20%;
+    height: 80%;
+    float: left;
+    margin: 1% 0;
+}
+
+.content-center {
+    background-color: lightskyblue;
+    width: 56%;
+    height: 80%;
+    float: left;
+    margin: 1% 2%;
 }
 
 #credits {
