@@ -51,10 +51,10 @@ body {
     margin: 1% 2%;
 }
 
-#credits {
+/* #credits {
     background-color: darkmagenta;
     height: 100px;
-}
+} */
 
 /* bonus */
 
@@ -89,8 +89,17 @@ nav a {
     background-position: top;
     background-size: contain;
     color: white;
+    border-radius: 20px;
 }
 
 #slidebar h1 {
-    line-height: 500px;
+    line-height: 300px;
+}
+
+#credits {
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    font-size: 30px;
+    font-weight: 900;
 }
